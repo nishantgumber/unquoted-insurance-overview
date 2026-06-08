@@ -5,7 +5,7 @@
 <br/>
 
 [![Status](https://img.shields.io/badge/Status-Paused-6b7280?style=for-the-badge)]()
-[![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20React%20%7C%20AWS-0f172a?style=for-the-badge)]()
+[![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20React%20%7C%20Firebase-0f172a?style=for-the-badge)]()
 [![Type](https://img.shields.io/badge/Type-Two--Sided%20Marketplace-0891b2?style=for-the-badge)]()
 
 </div>
@@ -55,9 +55,9 @@ Guided claims filing — users select the policy, describe the incident, upload 
 |-------|-----------|
 | Frontend | Next.js, React, Tailwind CSS |
 | Backend | Next.js API Routes, RESTful APIs |
-| Cloud | AWS (hosting, storage, compute) |
-| Auth | Secure authentication with session management |
-| Data | Dynamic dashboards, real-time policy data |
+| Database & Auth | Firebase (Firestore, Firebase Auth) |
+| Hosting | Vercel |
+| Real-time | Firebase real-time data sync |
 | Performance | Load-tested to 1,000+ concurrent users |
 
 ---
@@ -76,9 +76,9 @@ Guided claims filing — users select the policy, describe the incident, upload 
 └──────┬───────────────┬──────────────────┬────────────┘
        │               │                  │
 ┌──────▼──────┐ ┌──────▼──────┐ ┌─────────▼──────────┐
-│     AWS     │ │  Insurance  │ │   Notification      │
-│  (Storage,  │ │  Provider   │ │   Service           │
-│   Compute)  │ │  APIs       │ │   (Reminders)       │
+│  Firebase   │ │  Insurance  │ │   Notification      │
+│ (Firestore  │ │  Provider   │ │   Service           │
+│  + Auth)    │ │  APIs       │ │   (Reminders)       │
 └─────────────┘ └─────────────┘ └────────────────────┘
 ```
 
@@ -125,6 +125,6 @@ This is a genuine market opportunity — the comparison and management layer for
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishant-gumber/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:nishantgumber123@gmail.com)
 
-> ⚠️ This repository contains the public-facing product overview. Source code available on request.
+> ⚠️ This repository contains the public-facing product overview. Source code is maintained in a private repository.
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:164e63,100:0f172a&height=100&section=footer)
